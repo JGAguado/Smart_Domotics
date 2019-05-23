@@ -341,7 +341,6 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/zetex.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/zilog.lbr"
-UsedLibrary="A:/Files/Proyectos/Repositorios/EAGLE/lbr/SpaceDIY_EAGLE_library/SpaceDIY_boards.lbr"
 UsedLibrary="A:/Files/Proyectos/Repositorios/EAGLE/lbr/SparkFun-Eagle-Libraries/LilyPad-Wearables.lbr"
 UsedLibrary="A:/Files/Proyectos/Repositorios/EAGLE/lbr/SparkFun-Eagle-Libraries/SparkFun-Aesthetics.lbr"
 UsedLibrary="A:/Files/Proyectos/Repositorios/EAGLE/lbr/SparkFun-Eagle-Libraries/SparkFun-Batteries.lbr"
@@ -379,8 +378,8 @@ UsedLibrary="A:/Files/Proyectos/Repositorios/EAGLE/lbr/SpaceDIY_EAGLE_library/Sp
 
 [Win_1]
 Type="Control Panel"
-Loc="1612 321 2211 720"
-State=1
+Loc="-8 -31 591 368"
+State=2
 Number=0
 
 [Desktop]
