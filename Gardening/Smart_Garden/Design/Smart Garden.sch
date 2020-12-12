@@ -18370,10 +18370,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="236.22" y="162.56" size="1.778" layer="91">PB_LED_3</text>
 <text x="162.56" y="124.46" size="1.778" layer="91">PB_LED_2</text>
 <text x="170.18" y="160.02" size="1.778" layer="91">RST</text>
+<text x="248.92" y="5.08" size="2.1844" layer="94">V1.1</text>
+<text x="218.44" y="15.24" size="2.1844" layer="94">By J.G.Aguado</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="217.17" y="20.32" size="2.54" layer="94" font="vector"/>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94" font="vector"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94" font="vector"/>
 </instance>
@@ -18671,19 +18673,19 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="VALUE" x="7.62" y="146.177" size="1.778" layer="96"/>
 <attribute name="NAME" x="12.7" y="148.209" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X7" gate="-1" x="111.76" y="101.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="111.76" y="100.711" size="1.778" layer="95"/>
-</instance>
-<instance part="X7" gate="-2" x="106.68" y="91.44" smashed="yes">
-<attribute name="VALUE" x="104.14" y="87.757" size="1.778" layer="96"/>
+<instance part="X7" gate="-1" x="106.68" y="91.44" smashed="yes">
 <attribute name="NAME" x="106.68" y="92.329" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X8" gate="-1" x="111.76" y="66.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="111.76" y="65.151" size="1.778" layer="95"/>
+<instance part="X7" gate="-2" x="111.76" y="101.6" smashed="yes" rot="R180">
+<attribute name="VALUE" x="114.3" y="105.283" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="111.76" y="100.711" size="1.778" layer="95"/>
 </instance>
-<instance part="X8" gate="-2" x="106.68" y="55.88" smashed="yes">
-<attribute name="VALUE" x="104.14" y="52.197" size="1.778" layer="96"/>
+<instance part="X8" gate="-1" x="106.68" y="55.88" smashed="yes">
 <attribute name="NAME" x="106.68" y="56.769" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="X8" gate="-2" x="111.76" y="66.04" smashed="yes" rot="R180">
+<attribute name="VALUE" x="114.3" y="69.723" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="111.76" y="65.151" size="1.778" layer="95"/>
 </instance>
 <instance part="X9" gate="-1" x="218.44" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="218.44" y="100.711" size="1.778" layer="95"/>
@@ -19303,9 +19305,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="S2" gate="G$1" pin="8"/>
 </segment>
 <segment>
-<wire x1="114.3" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="X7" gate="-1" pin="KL"/>
+<wire x1="111.76" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
 <label x="111.76" y="91.44" size="1.778" layer="95"/>
-<pinref part="X7" gate="-2" pin="KL"/>
 </segment>
 </net>
 <net name="1R2" class="0">
@@ -19364,9 +19366,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="S3" gate="G$1" pin="8"/>
 </segment>
 <segment>
-<wire x1="114.3" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="X8" gate="-1" pin="KL"/>
+<wire x1="111.76" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
 <label x="111.76" y="55.88" size="1.778" layer="95"/>
-<pinref part="X8" gate="-2" pin="KL"/>
 </segment>
 </net>
 <net name="2R2" class="0">
@@ -19697,6 +19699,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="187.96" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
 <label x="177.8" y="134.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="RING2"/>
+<wire x1="248.92" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
+<label x="243.84" y="66.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="IO12" class="0">
 <segment>
@@ -19715,11 +19722,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="U1" gate="G$1" pin="IO13"/>
 <wire x1="177.8" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
 <label x="177.8" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="RING2"/>
-<wire x1="248.92" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
-<label x="243.84" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="2"/>
@@ -19912,6 +19914,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="30.48" y1="111.76" x2="20.32" y2="111.76" width="0.1524" layer="91"/>
 <label x="25.4" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="170.18" y1="33.02" x2="180.34" y2="33.02" width="0.1524" layer="91"/>
+<label x="175.26" y="33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TX" class="0">
 <segment>
@@ -20058,27 +20065,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="96.52" y1="160.02" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IO3" class="0">
-<segment>
-<pinref part="JP3" gate="A" pin="3"/>
-<wire x1="170.18" y1="33.02" x2="180.34" y2="33.02" width="0.1524" layer="91"/>
-<label x="175.26" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="SWCLOSE"/>
-<pinref part="X8" gate="-1" pin="KL"/>
-<wire x1="106.68" y1="66.04" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="SWCLOSE"/>
-<pinref part="X7" gate="-1" pin="KL"/>
-<wire x1="106.68" y1="101.6" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="SWCLOSE"/>
@@ -20098,6 +20084,20 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="JP6" gate="A" pin="4"/>
 <pinref part="X6" gate="-1" pin="KL"/>
 <wire x1="30.48" y1="137.16" x2="20.32" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="SWCLOSE"/>
+<pinref part="X7" gate="-2" pin="KL"/>
+<wire x1="106.68" y1="101.6" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="SWCLOSE"/>
+<pinref part="X8" gate="-2" pin="KL"/>
+<wire x1="106.68" y1="66.04" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
