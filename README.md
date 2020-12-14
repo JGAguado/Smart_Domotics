@@ -5,11 +5,11 @@ This repository is contains EAGLE files (electronic boards) grouped by domotic a
 ## Project tree
 
 * [Gardening ](./Gardening/)
-    * [Smart Garden](./Gardening/Smart_garden)
-        * [Design](./Gardening/Smart_garden/Design/)
-        * [Documentation](./Gardening/Smart_garden/Documentation/)
-        * [Production](./Gardening/Smart_garden/Production/)
-        * [Documentation](../Gardening/Smart_garden/Documentation/)
+    * [Smart Garden](./Gardening/Smart_Garden)
+        * [Design](./Gardening/Smart_Garden/Design/)
+        * [Documentation](./Gardening/Smart_Garden/Documentation/)
+        * [Production](./Gardening/Smart_Garden/Production/)
+        * [Documentation](../Gardening/Smart_Garden/Documentation/)
         * [README.md](./README.md)
 
     * [WMF Ambient SmartPot](./Gardening/WMF_Ambient_SmartPot/)
