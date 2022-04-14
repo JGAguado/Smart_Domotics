@@ -22,7 +22,7 @@ This repository contains the design files of the Smart_Domotics boards grouped b
    <img src="https://github.com/JGAguado/Smart_Powermeter/blob/main/Documentation/Images/Top.png" width="49%">    
    <img src="https://github.com/JGAguado/Smart_Powermeter/blob/main/Documentation/Images/Bottom.png" width="49%"> 
    
-   <li><a href="https://github.com/JGAguado/Smart_Herbs">Smart Herbs</a>: The Smart Herbs project is a set of PCBs compatible with the [WMF Ambient Pot](https://www.wmf.com/es/wmf-ambient-kraeuter-athome.html) that provides a full smart solution for monitoring the plants. </li>
+   <li><a href="https://github.com/JGAguado/Smart_Herbs">Smart Herbs</a>: The Smart Herbs project is a set of PCBs compatible with the <a href="https://www.wmf.com/es/wmf-ambient-kraeuter-athome.html">WMF Ambient Pot</a> that provides a full smart solution for monitoring the plants. </li>
    <img src="https://github.com/JGAguado/Smart_Herbs/blob/main/Documentation/Images/Top.png" width="49%">    
    <img src="https://github.com/JGAguado/Smart_Herbs/blob/main/Documentation/Images/Bottom.png" width="49%"> 
    
