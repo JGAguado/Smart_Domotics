@@ -1,0 +1,3 @@
+[submodule "Smart_Plant"]
+	path = Smart_Plant
+	url = https://github.com/JGAguado/Smart_Plant.git

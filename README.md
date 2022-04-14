@@ -7,7 +7,7 @@
 # Domotics
 
 
-This repository is contains EAGLE files (electronic boards) grouped by domotic application.
+This repository contains EAGLE files (electronic boards) grouped by domotic application.
 <p float="left">
    <img src="https://github.com/JGAguado/Domotics/blob/master/Smart_Lights/Documentation/Images/Top.png" width="40%">
    <img src="https://github.com/JGAguado/Domotics/blob/master/Smart_Power-meter/Documentation/Images/Top.png" width="40%">   
