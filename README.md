@@ -11,7 +11,7 @@ This repository contains the design files of the Smart_Domotics boards grouped b
 
 <ul>
    <li><a href="https://github.com/JGAguado/Smart_Plant">Smart Plant</a>: The Smart Plant is a board that can be plugged directly on the soil, close to the plant, that allows the measurement of the environment (soil moisture, environment temperature & illuminance), and presents the information on an ePaper display.</li>
-   <img src="./Smart_Plant/Documentation/Images/Top.png" width="49%"> 
+   <img src="https://github.com/JGAguado/Smart_Plant/blob/main/Documentation/Images/Top.png" width="49%"> 
 </ul>
 
 
