@@ -8,23 +8,15 @@
 
 
 This repository contains the design files of the Smart_Domotics boards grouped by domotic application.
-<p float="left">
-   <style type="text/css">
-      #container { width: 49%; //whatever width you want }
 
-      #image {width: 100%; //fill up whole div }
+<ul>
+   <li><a href="https://github.com/JGAguado/Smart_Plant">Smart Plant</a>: The Smart Plant is a board that can be plugged directly on the soil, close to the plant, that allows the measurement of the environment (soil moisture, environment temperature & illuminance), and presents the information on an ePaper display.</li>
+   <img src="./Smart_Plant/Documentation/Images/Top.png" width="49%"> 
+</ul>
 
-      #text { text-align: center; }    
-   </style>
 
- <div id="container"> 
-   <img src="./Smart_Plant/Documentation/Images/Top.png" width="100%"> 
-     <p id="text"><a href="https://github.com/JGAguado/Smart_Plant">Smart Plant</a></p> 
- </div>
-
-</p>
-
-## Project tree common for any city map
+## Project tree common for any board
+---
 <ul>
    <li>Design</li>
    <li>Documentation</li>
