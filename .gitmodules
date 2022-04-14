@@ -1,3 +1,15 @@
 [submodule "Smart_Plant"]
 	path = Smart_Plant
 	url = https://github.com/JGAguado/Smart_Plant.git
+[submodule "Smart_Lights"]
+	path = Smart_Lights
+	url = https://github.com/JGAguado/Smart_Lights.git
+[submodule "Smart_Herbs"]
+	path = Smart_Herbs
+	url = https://github.com/JGAguado/Smart_Herbs.git
+[submodule "Smart_Powermeter"]
+	path = Smart_Powermeter
+	url = https://github.com/JGAguado/Smart_Powermeter.git
+[submodule "Smart_Garden"]
+	path = Smart_Garden
+	url = https://github.com/JGAguado/Smart_Garden.git
