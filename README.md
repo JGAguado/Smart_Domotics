@@ -1,4 +1,3 @@
-[![GitHub Release][releases-shield]][releases]
 [![License][license-shield]](LICENSE)
 
 [![Project Maintenance][maintenance-shield]][maintenance]
@@ -41,9 +40,6 @@ This repository contains the design files of the Smart_Domotics boards grouped b
   <li><a href="./README.md">README.md</a></li>
 
 </ul>
-
-[releases-shield]: https://img.shields.io/github/release/JGAguado/Smart_Domotics.svg?style=for-the-badge
-[releases]: https://github.com/JGAguado/Smart_Domotics/releases
 
 [license-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=for-the-badge
 
