@@ -17,6 +17,10 @@ This repository contains the design files of the Smart_Domotics boards grouped b
    <img src="https://github.com/JGAguado/Smart_Garden/blob/main/Documentation/Images/Top.png" width="49%">    
    <img src="https://github.com/JGAguado/Smart_Garden/blob/main/Documentation/Images/Bottom.png" width="49%"> 
    
+   <li><a href="https://github.com/JGAguado/Smart_Alarm">Smart Alarm</a>: The Smart Alarm is an ESP32-CAM compatible board that integrates a PIR sensor and direct connection with a R503 fingerprint reader device.</li>
+   <img src="https://github.com/JGAguado/Smart_Alarm/blob/master/Documentation/Images/Top.png" width="49%">    
+   <img src="https://github.com/JGAguado/Smart_Alarm/blob/master/Documentation/Images/Bottom.png" width="49%"> 
+
    <li><a href="https://github.com/JGAguado/Smart_Powermeter">Smart Powermeter</a>: The Smart Powermeter works as a shield for the TTGO T-Display allowing the measurement up to 6 CT clamps for reading electric current.</li>
    <img src="https://github.com/JGAguado/Smart_Powermeter/blob/main/Documentation/Images/Top.png" width="49%">    
    <img src="https://github.com/JGAguado/Smart_Powermeter/blob/main/Documentation/Images/Bottom.png" width="49%"> 

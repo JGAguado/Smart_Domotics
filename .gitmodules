@@ -13,3 +13,6 @@
 [submodule "Smart_Garden"]
 	path = Smart_Garden
 	url = https://github.com/JGAguado/Smart_Garden.git
+[submodule "Smart_Alarm"]
+	path = Smart_Alarm
+	url = https://github.com/JGAguado/Smart_Alarm.git
