@@ -16,3 +16,6 @@
 [submodule "Smart_Alarm"]
 	path = Smart_Alarm
 	url = https://github.com/JGAguado/Smart_Alarm.git
+[submodule "Smart_Dashboard"]
+	path = Smart_Dashboard
+	url = https://github.com/JGAguado/Smart_Dashboard.git
